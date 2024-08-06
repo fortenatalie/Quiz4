@@ -2,7 +2,6 @@ section .data
         x dd 5
         y dd 4
         z dd 3
-        mov DWORD[ebp-4], eax
 
 section .text
         global  _start
